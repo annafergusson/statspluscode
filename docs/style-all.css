@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+body { 
+  font-family: 'Open Sans Condensed'; 
+}
+
+.title {
+  display:none;
+}
+
+#header {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, .navbar-nav  {
+  font-family: 'Open Sans Condensed';
+  font-weight: normal;
+  color: #7F7F7F;
+}
+
+
+.navbar-nav li a {
+  font-family: 'Open Sans Condensed';
+  font-weight: normal;
+  color: #7F7F7F;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+ background-color:#FBEB7D;
+ color: #000000;
+}
+
+.navbar-nav>li>a:hover {
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #7F7F7F;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #7F7F7F;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover {
+  border:none;
+  font-weight:bold;
+}
+
+.navbar-nav>a, .navbar-nav>a:hover {
+  border:none;
+}
+
+
+a {
+  color: #7F7F7F;
+  text-decoration: none;
+  border-bottom: #FBEB7D solid 1px;
+  font-weight: bold;
+}
+
+pre a{
+  border-bottom: none;
+}
+
+a:hover {
+  color: #7F7F7F;
+  opacity: 0.5;
+  background-color: #FBEB7D;
+}
+
+a:visited {
+  color: #7F7F7F;
+  text-decoration: none;
+  border-bottom: #FBEB7D solid 1px;
+  font-weight: bold;
+}
+
+.navbar a {
+  font-family: 'Open Sans Condensed';
+  text-decoration: none;
+  font-weight: normal;
+  color: #7F7F7F;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #7F7F7F;
+}
+
+.navbar {
+  background: #FBEB7D;
+  color: #7F7F7F;
+  border: none;
+}
+
+a.navbar-brand {
+  font-family: Cabin Sketch;
+  font-size: 1.5em;
+}
+
+blockquote {
+  border-left: 5px solid #FBEB7D;
+  font-size: medium;
+}
